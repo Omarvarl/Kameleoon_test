@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  user-select: none ;
+}
+
+@font-face {
+  font-family: 'MontserratBold';
+  src: local('MontserratBold'),
+    url('./fonts/Montserrat-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'MontserratSemiBold';
+  src: local('MontserratSemiBold'),
+    url('./fonts/Montserrat-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'MontserratMedium';
+  src: local('MontserratMedium'),
+    url('./fonts/Montserrat-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'RobotoMedium';
+  src: local('RobotoMedium'),
+    url('./fonts/Roboto-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'RobotoRegular';
+  src: local('RobotoRegular'),
+    url('./fonts/Roboto-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'NunitoBold';
+  src: local('NunitoBold'),
+    url('./fonts/Nunito-Bold.ttf') format('truetype');
+}

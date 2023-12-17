@@ -1,0 +1,84 @@
+table {
+    margin-top: 28px;
+    border-spacing: 0px 5px;
+}
+
+tr {
+    text-align: left;
+}
+
+tr > th > span:hover {
+    cursor: pointer;
+}
+
+tbody > tr:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+}
+
+td {
+    height: 70px;
+    background-color: white;
+}
+
+.headers {
+    font-family: RobotoMedium;
+    font-size: 8.3pt;
+    color: #999;
+}
+
+.td-name {
+    font-family: RobotoMedium;
+    color: #474747;
+    font-size: 10pt;
+    width: 45%;
+    padding-left: 11px;
+}
+
+.td-type, .td-site {
+    font-family: RobotoRegular;
+    color: #5C5C5C;
+    font-size: 9pt;
+}
+
+.td-type {
+    width: 15%;
+}
+
+.td-status {
+    font-family: RobotoRegular;
+    font-size: 9pt;
+    width: 13%;
+}
+
+.td-button {
+    text-align: center;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.td-mark {
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    width: 3px;
+}
+
+.td-btn, .reset-btn {
+    width: 95px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-family: MontserratSemiBold;
+    font-size: 9;
+}
+
+.td-btn:hover, .reset-btn:hover {
+    cursor: pointer;
+    background-color: skyblue!important;
+}
+
+th {
+    font-weight: normal;
+    align-items: center;
+}
